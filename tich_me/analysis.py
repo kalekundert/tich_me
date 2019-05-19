@@ -159,7 +159,7 @@ def label_card_axis(ax):
             }
     }
 
-    ticks = list(range(NUM_RANKS))
+    ticks = list(np.arange(NUM_RANKS) + 1)
     tick_labels = [named_ranks.get(x, str(x)) for x in ticks]
 
     ax.set_xlim(0.5, NUM_RANKS + 0.5)
