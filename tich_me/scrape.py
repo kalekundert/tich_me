@@ -147,6 +147,7 @@ def parse_game(tch):
 
     game = {
             'url': None,
+            'date': None,
             'players': players,
             'rounds': rounds,
     }
@@ -168,7 +169,10 @@ def record_game(session, game_dict):
     if model.is_game_recorded(session, game_dict['url']):
         return
 
-    game = model.Game(url=game_dict['url'])
+    game = model.Game(
+            url=game_dict['url'],
+            date=game_dict['date'],
+    )
     teams, seats = record_players(session, game, game_dict['players'])
     cards = load_cards(session)
 
