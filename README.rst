@@ -53,13 +53,13 @@ conditional on calling Grand Tichu::
 
 This produces the following results:
 
-.. figure:: analysis/passing_probs.svg
+.. figure:: https://github.com/kalekundert/tich_me/raw/master/analysis/passing_probs.svg?sanitize=true
 
    The probability of being passed each rank of card in any given round.  The 
    blue bars are if you did not call Tichu or Grand Tichu before the pass, and 
    the orange plus-marks are if you called Grand Tichu.
 
-.. figure:: analysis/passing_probs_by_giver.svg
+.. figure:: https://github.com/kalekundert/tich_me/raw/master/analysis/passing_probs_by_giver.svg?sanitize=true
 
    As above, but separated by who is passing the card to you: your left 
    opponent, your partner, or your right opponent.  Note that the convention of 
