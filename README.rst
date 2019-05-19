@@ -77,7 +77,7 @@ If you are interested in studying a particular aspect of Tichu strategy,
 consider using `tich_me` to do your analysis.  The hard work of downloading, 
 parsing, and organizing game data is already done, so you can start doing your 
 analysis right away.  And if you do implement a new analysis, please consider 
-making a `pull requests <https://github.com/kalekundert/vim-coiled-snake/pulls>`_!
+making a `pull request <https://github.com/kalekundert/vim-coiled-snake/pulls>`_!
 `Bug reports <https://github.com/kalekundert/vim-coiled-snake/issues>`_ are also 
 very welcome.
 
