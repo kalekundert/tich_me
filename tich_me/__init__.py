@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 
-__version__ = '0.0.0'
+__author__ = "Kale Kundert"
+__version__ = "0.0.0"
 
-def main():
-    print("Hello world!")
+from .app import *
+from .model import *
+from .scrape import *
+from .analysis import *
+
+
+
