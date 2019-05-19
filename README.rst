@@ -1,8 +1,8 @@
-*******************************
-tich_me
-*******************************
+***********************************************
+``tich_me`` --- Teach yourself how to win Tichu
+***********************************************
 
-[Tichu](https://boardgamegeek.com/boardgame/215/tichu) is a 4-player 
+`Tichu <https://boardgamegeek.com/boardgame/215/tichu>`_ is a 4-player 
 trick-taking game where you play with a partner and wager on whether or not you 
 will go out first.  It is not an exceptionally complicated game, but it does 
 present a number of interesting strategic decisions for players to make.
@@ -51,15 +51,15 @@ conditional on calling Grand Tichu::
 
    tich_me analyze passing
 
-This produces the following results::
+This produces the following results:
 
-.. image:: analysis/passing_probs.svg
+.. figure:: analysis/passing_probs.svg
 
    The probability of being passed each rank of card in any given round.  The 
    blue bars are if you did not call Tichu or Grand Tichu before the pass, and 
    the orange plus-marks are if you called Grand Tichu.
 
-..image:: analysis/passing_probs_by_giver.svg
+.. figure:: analysis/passing_probs_by_giver.svg
 
    As above, but separated by who is passing the card to you: your left 
    opponent, your partner, or your right opponent.  Note that the convention of 
@@ -77,8 +77,7 @@ If you are interested in studying a particular aspect of Tichu strategy,
 consider using `tich_me` to do your analysis.  The hard work of downloading, 
 parsing, and organizing game data is already done, so you can start doing your 
 analysis right away.  And if you do implement a new analysis, please consider 
-making a [pull 
-requests](https://github.com/kalekundert/vim-coiled-snake/pulls)!  [Bug 
-reports](https://github.com/kalekundert/vim-coiled-snake/issues) are also very 
-welcome.
+making a `pull requests <https://github.com/kalekundert/vim-coiled-snake/pulls>`_!
+`Bug reports <https://github.com/kalekundert/vim-coiled-snake/issues>`_ are also 
+very welcome.
 
