@@ -30,4 +30,10 @@ setup(
         'pandas',
         'matplotlib',
     ],
+    classifiers=[
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Games/Entertainment :: Board Games',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+        'Natural Language :: English',
+    ],
 )
